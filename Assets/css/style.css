@@ -136,6 +136,23 @@ header .navbar {
     display: none;
 }
 
+.events {
+  width: 80%;
+  margin: 60px auto;
+}
+
+.title {
+  text-align: center;
+  color: #213448;
+}
+
+.title .line {
+  margin: 20px auto;
+  width: 150px;
+  background: #547792;
+  height: 4px;
+}
+
 .card-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
