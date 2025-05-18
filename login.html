@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Booking Website</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">GoGlobe<span>.</span></a>
+        <ul class="menu-links"> 
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Trips.html">Trips</a></li>
+          <li><a href="Hotels.html">Hotels</a></li>
+          <li><a href="About.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="login.html" class="ctn">Login</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <div class="lg-container">
+      <form action="#">
+        <div class="title">Login</div>
+        <div class="input-box underline">
+          <input type="text" placeholder="Enter Your Email" required>
+          <div class="underline"></div>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Enter Your Password" required>
+          <div class="underline"></div>
+        </div>
+        <div class="input-box button">
+          <input type="submit" name="" value="Continue">
+        </div>
+      </form>
+        <div class="option">or Connect With Social Media</div>
+        <div class="twitter">
+          <a href="#"><i class="fab fa-twitter"></i>Sign in With Twitter</a>
+        </div>
+        <div class="facebook">
+          <a href="#"><i class="fab fa-facebook-f"></i>Sign in With Facebook</a>
+        </div>
+    </div>
+
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+      
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+
+  </body>
+</html>
