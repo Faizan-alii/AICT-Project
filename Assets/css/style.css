@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
+
 
 header {
     position: fixed;
@@ -15,6 +22,8 @@ header {
     z-index: 10;
 
 }
+
+
 
 header .navbar {
     display: flex;
@@ -72,6 +81,7 @@ header .navbar {
     align-items: center;
     padding: 0 20px;
     background-position: top;
+
 }
 
 .hero-section .content {
@@ -79,6 +89,8 @@ header .navbar {
     margin: 0 auto;
     width: 100%;
     color: #ECEFCA;
+
+
 }
 
 .content p {
@@ -142,6 +154,8 @@ header .navbar {
 .events {
     width: 80%;
     margin: 60px auto;
+
+
 }
 
 .title {
@@ -268,6 +282,7 @@ header .navbar {
     margin: 50px auto;
     padding: 20px 20px;
     text-align: center;
+
 }
 
 .benefits-section h1 {
@@ -323,6 +338,8 @@ header .navbar {
     max-width: 1100px;
     margin: 50px auto;
     padding: 20px;
+
+
 }
 
 .content-row {
