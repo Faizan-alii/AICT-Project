@@ -12,20 +12,22 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+    <nav class="navbar">
         <a class="logo" href="index.html">GoGlobe<span>.</span></a>
-        <ul class="menu-links"> 
-          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Trips.html">Trips</a></li>
-          <li><a href="Hotels.html">Hotels</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-          <li><a href="login.html" class="ctn">Login</a></li>
+        
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle">☰</label>
+        
+        <ul class="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Trips.html">Trips</a></li>
+            <li><a href="Hotels.html">Hotels</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="login.html" class="ctn">Login</a></li>
         </ul>
-        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
-      </nav>
-    </header>
+    </nav>
+</header>
 
      <section class="about-section">
         <div class="container">
@@ -114,14 +116,7 @@
   </footer>
 
 
-    <script>
-      const header = document.querySelector("header");
-      const hamburgerBtn = document.querySelector("#hamburger-btn");
-      const closeMenuBtn = document.querySelector("#close-menu-btn");
-      
-      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
-      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
-    </script>
+   
     
   </body>
 </html>
