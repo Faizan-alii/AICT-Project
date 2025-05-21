@@ -40,6 +40,14 @@ header .navbar {
     gap: 25px;
 }
 
+#nav-toggle{
+    display: none;
+}
+
+.navbar label{
+    display: none;
+}
+
 .navbar .logo {
     color: #ECEFCA;
     font-weight: 600;
@@ -389,7 +397,7 @@ header .navbar {
         text-align: center;
         width: 100%;
     }
-    
+}
    
 
 
@@ -1295,4 +1303,3 @@ button:hover {
     }
 }
 
-}
