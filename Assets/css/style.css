@@ -170,43 +170,7 @@ header .navbar {
     height: 4px;
 }
 
-/* .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
 
-}
-
-.row .col {
-    width: 80%;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.events .row {
-    margin-top: 50px;
-}
-
-.col h4 {
-    color: #213448;
-    margin: 20px auto;
-}
-
-.col p{
-    color: #547792;
-    padding: 0px 40px;
-}
-
-.col img{
-    height: 400px;
-    width: 400px;
-}
-
-.events.ctn{
-    margin-top: 100px;
-} */
 
 .card-list {
     display: grid;
@@ -964,7 +928,6 @@ ul {
 
 
 
-/* About Section */
 .about-section {
     padding: 80px 0;
 }
